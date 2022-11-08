@@ -1,0 +1,836 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: rgba(207, 184, 153, 0.14);
+}
+
+header {
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgba(45, 23, 13, 0.623),rgba(23, 10, 5, 0.623)),url("../img/carousel-1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-image: url("../img/overlay-bottom.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -43px;
+}
+
+.content {
+    padding: 30px 30px;
+   
+}
+
+.content h1 {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aa {
+    display: flex;
+     justify-content: space-between;
+}
+
+.nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.nav {
+    margin: 0 60px 0 0;
+}
+
+.home a {
+    color: rgb(175, 104, 11);
+}
+
+a:hover {
+    color: rgb(175, 104, 11);
+}
+
+.end {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.end .one ,
+.end .three {
+    color: rgba(255, 255, 255, 0.697);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+}
+
+.end .two .p1 {
+    color: rgb(175, 104, 11);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.end .two .p2 {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 120px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.end .two .p3 {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+.middle {
+    width: 100%;
+    margin-top: -25px;
+    background-color: rgba(207, 184, 153, 0.14);
+    
+    padding: 100px 0;
+}
+
+.middle .first {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+ .hline {
+    width: 3px;
+    height: 100px;
+    background-color: rgb(223, 155, 66);
+    margin: auto;
+}
+
+.middle .about h2 {
+       color: rgb(223, 155, 66);
+       text-transform: uppercase;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 15px;
+       letter-spacing: 5px;
+}
+.middle .about h1 {
+       color: rgb(47, 28, 2);
+       text-transform: capitalize;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 15px;
+       font-size: 40px;
+}
+
+.second .one h1 {
+    color: rgb(47, 28, 2);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.second .one .p1 {
+    color: rgb(47, 28, 2);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 18px;
+}
+
+.second .one .p2 {
+    color: rgba(47, 28, 2, 0.744);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 20px 0 40px 20px;
+}
+
+.second .one a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(47, 28, 2);
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 200px 0 0 20px;
+}
+
+.second .three h1 {
+    color: rgb(47, 28, 2);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin: 18px;
+}
+
+.second .three p {
+    color: rgba(47, 28, 2, 0.744);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 15px;
+}
+
+.second .three i {
+    color: rgb(223, 155, 66);
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.second span {
+    color: rgb(47, 28, 2);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 18px;
+    font-weight: bolder;
+}
+
+.second .one,
+.second .two,
+.second .three {
+    width: 25%;
+    margin: 50px;
+    line-height: 30px;
+}
+
+.second .two {
+    margin-left: -30px;
+    width: 25%;
+    margin-top: -20px;
+    
+}
+
+.second img {
+    height: 500px;
+
+}
+
+.second {
+    display: flex;
+    margin-left: 100px;
+}
+
+.icon {
+    margin-bottom: 30px;
+}
+
+.second .three a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(176, 104, 2);
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 300px 0 0 20px;
+}
+
+.middle .third {
+    margin: 120px 0 20px 0;
+    text-align: center;
+}
+
+.middle .third h2 {
+    color: rgb(216, 128, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.middle .third h1 {
+    color: rgb(59, 35, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.mid2 {
+    width: calc(100%-30px);
+    background-color: rgba(207, 184, 153, 0.14);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 0;
+    /* margin-left: 30px; */
+    padding-left: 30px;
+    
+}
+
+.mid2 div {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mid2 img {
+    width: 220px;
+    height: 220px;
+}
+
+.mid2 i {
+    color: rgb(59, 35, 0);
+    background-color: rgba(216, 128, 5, 0.785);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 11px;
+}
+
+.mid2 h2 {
+    color: rgb(47, 28, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.mid2 p {
+    
+        color: rgba(47, 28, 2, 0.714);
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    
+}
+
+.mid2 .content {
+    margin-left: -25px;
+    line-height: 25px;
+    margin-top: -15px;
+}
+
+.mid3 {
+    width: 100%;
+    height: 120vh;
+    padding: 200px 0;
+    background-color: rgba(207, 184, 153, 0.14);
+}
+
+.mid3 .content2 {
+    width: 100%;
+    height: 72vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(23, 13, 1, 0.714) ,rgba(23, 14, 1, 0.714)) , url("../img/bg.jpg");
+    background-size: 100%;
+}
+
+.mid3 .up {
+    background-image: url("../img/overlay-top.png");
+    width: 100%;
+    height: 7vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -10px;
+}
+.mid3 .down {
+    background-image: url("../img/overlay-bottom.png");
+    width: 100%;
+    height: 7vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* margin-bottom: -1000px; */
+}
+
+.mid3 h1 {
+    color: rgba(213, 124, 0, 0.603);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.mid3 h3 {
+    color: rgba(255, 254, 254, 0.873);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.mid3 p {
+    color: rgba(255, 254, 254, 0.873);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.mid3 input {
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-style: none;
+}
+
+.mid3 .text {
+    width: 250px;
+    font-size: 20px;
+    color: rgb(47, 28, 2);
+    padding: 0 5px;
+}
+
+.mid3 .submit {
+    width: 100px;
+    margin-left: -9px;
+    height: 60px;
+    padding: 5px;
+    color: rgb(47, 28, 2);
+    background-color: rgb(223, 155, 66);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.midd4 {
+
+    text-align: center;
+        width: 100%;
+        margin-top: -590px;
+        background-color: rgba(221, 195, 160, 0.16);
+        padding: 100px 0;
+}
+.midd4 .first h3 {
+    
+        color: rgb(223, 155, 66);
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px;
+        letter-spacing: 5px;
+}
+
+.midd4 .first h1 {
+    color: rgb(47, 28, 2);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.a,
+.b {
+    width: 600px;
+}
+
+.a {
+    margin-left: 80px;
+}
+
+.midd4 img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.second .a h1,
+.second .b h1 {
+    color: rgb(47, 28, 2);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    font-size: 40px;
+    margin-left: -300px;
+    margin-bottom: 40px;
+}
+
+.second .ff span {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(223, 155, 66);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 15px;
+    margin: 0 0 -50px -460px;
+}
+
+.second .ff {
+    display: flex;
+    padding: 20px;
+}
+
+.second .a h2,
+.second .b h2 {
+    color: rgb(47, 28, 2);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    text-align: left;
+}
+.second .a p,
+.second .b p {
+    color: rgba(47, 28, 2, 0.618);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    text-align: left;
+}
+
+.picture {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(14, 13, 12, 0.792) ,rgba(32, 29, 26, 0.753)) , url("../img/bg.jpg");
+    background-size: 100%;
+    
+}
+
+.picture .content2 {
+    background-image: linear-gradient(rgba(47, 28, 2, 0.463),rgba(47, 28, 2, 0.468));
+}
+
+.picture .top {
+    background-image: url("../img/overlay-top.png");
+    width: 100%;
+    height: 7vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -10px;
+}
+.picture .bottom {
+    background-image: url("../img/overlay-bottom.png");
+    width: 100%;
+    height: 7vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* margin-bottom: -1000px; */
+}
+
+ .middle5 {
+    padding: 0 150px;
+    background-color: rgba(228, 196, 150, 0.13);
+}
+
+.middle5 .content1 h1 {
+    color: rgb(223, 155, 66);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.middle5 .content1 h2 {
+    color: rgba(255, 255, 255, 0.836);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.middle5 .content1 p {
+    color: rgba(255, 254, 254, 0.727);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-transform: capitalize;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.middle5 .content1 i {
+    color: rgb(223, 155, 66);
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.middle5 .content1 span {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 18px;
+}
+
+.content11 {
+    display: flex;
+    padding-top: 90px;
+}
+
+.content1 {
+    width: 45%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content11 .content2 {
+    width: 45%;
+    height: 100%;
+    margin-left: 100px;
+    padding: 40px 60px;
+    margin-top: -80px;
+} 
+
+.picture .content2 h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.picture input {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(59, 35, 0);
+    color: rgb(176, 104, 2);
+    border: 2px rgb(175, 104, 11) solid;
+    margin: 8px 0;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.content2 .submit {
+    background-color: rgb(216, 128, 5);
+    color: rgb(59, 35, 0);
+    font-size: 20px;
+    border: 2px rgb(59, 35, 0) solid;
+    height: 60px;
+}
+
+.finish {
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(232, 220, 206, 0.449);
+    padding-top: 100px;
+}
+
+.finish .deux h2 {
+    color: rgba(216, 128, 5, 0.675);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 20px;
+}
+
+.finish .deux h1 {
+    color: rgb(59, 35, 0);
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.finish .endd {
+    display: flex;
+    margin: 100px 20px;
+}
+
+.finish .img {
+    display: flex;
+}
+
+.finish img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.finish .img h1 {
+    color: rgb(47, 28, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.finish em,
+.finish p {
+    color: rgba(47, 28, 2, 0.618);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+    line-height: 23px;
+}
+
+.idea .d1 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(175, 104, 11);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 10px;
+} 
+.idea .d2 {
+    width: 40px;
+    height: 20px;
+    background-color: rgb(175, 104, 11);
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+    background-color: rgb(59, 35, 0);
+    margin-left: 10px;
+} 
+
+.finish .idea {
+    display: flex;
+    margin: 100px 700px;
+    
+}
+
+.footer .first {
+    background-image: url("../img/overlay-top.png");
+    width: 100%;
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.footer {
+    background-image: linear-gradient(rgba(28, 25, 25, 0.819),rgba(28, 25, 25, 0.781)) , url("../img/bg.jpg");
+
+    width: 100%;
+    height: 80vh;
+    background-size: 100%;
+    margin-left: -1px;
+    
+}
+
+.footer .div1 h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* letter-spacing: 10px; */
+    margin-top: 100px;
+}
+
+.footer .icon1 {
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.footer .icon1 p {
+    margin: 15px;
+}
+
+.footer .icon1 i {
+    margin-right: 10px;
+}
+
+.footer p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.footer .icon2 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px white solid;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.footer .icon2 a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.icon2 {
+    margin-top: 40px;
+}
+
+.footer .div1 {
+    width: 22%;
+    margin-right: 30px;
+}
+
+.footer .one {
+    color: rgb(47, 28, 2);
+    width: 200px;
+    height: 30px;
+    margin-left: 0px;
+    padding: 15px 30px;
+}
+
+
+.footer .input {
+    /* display: flex; */
+    position: relative;
+    border-style: none;
+    font-size: 25px;
+}
+
+.footer .two {
+    color: rgb(47, 28, 0);
+    background-color: rgb(216, 128, 5);
+    width: 90px;
+    height: 65px;
+    padding: 13px;
+    margin-top: 50px 70px;
+    position: absolute;
+    left: 290px;
+    top: 70px;  
+}
+
+.abc {
+    width: 100%;
+    height: .08px;
+    background-color: rgba(255, 255, 255, 0.247);
+    margin-top: 30px;
+}
+
+.copy {
+    text-align: center;
+    font-size: 18px;
+}
+
+.copy a {
+    text-decoration: none;
+    color: rgb(229, 135, 11);
+}
+.copy a:hover {
+    text-decoration: underline;
+    color: rgb(175, 104, 11);
+    font-weight: bolder;
+}
+
